@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.ConfigurableApplicationContext;
 
+
 @EnableAutoConfiguration //激活自动装配
 public class EnableConfigurationBootstrap {
 
@@ -16,7 +17,7 @@ public class EnableConfigurationBootstrap {
                 .run(args);
 
 
-        String bean = context.getBean("hellWorld", String.class);
+        String bean = context.getBean("helloWorld", String.class);
 
         System.out.println(bean);
 
