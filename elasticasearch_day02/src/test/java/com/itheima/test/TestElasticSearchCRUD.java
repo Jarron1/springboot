@@ -55,6 +55,14 @@ public class TestElasticSearchCRUD {
     }
 
 
+    private void test11() {
+
+    }
+
+
+    private void test112() {
+
+    }
 
     @Test
 //创建映射
